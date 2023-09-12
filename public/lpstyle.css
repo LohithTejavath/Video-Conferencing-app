@@ -1,0 +1,95 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#mainimg{
+    width: 500px;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+}
+header>h1{
+  font-size: 250%;
+    padding-left: 32px;
+}
+.main{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    height: 73vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    height: 15vh;
+    width: 100%;
+}
+.submain{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+}
+.btnspace{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.greet{
+    /* position: fixed; */
+    top: 30%;
+}
+.btnspace >button{
+    width: 95%;
+    height: 50px;
+    background-color: #d6c6ff ;
+    border-style: none;
+    border-radius: 16px;
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 0px 5px rgb(0 0 0 / 0.2);
+
+
+}
+.btnspace >button:hover{
+    width: 100%;
+    height: 60px;
+    background-color: #d0bdff ;
+    box-shadow: 0 0px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.icons{
+    margin-left: 32px;
+
+
+}
+.icons>svg:hover{
+cursor: pointer;
+fill: rgb(33, 3, 88);
+}
+.info{
+    margin-left: 32px;
+    margin-top: 1vh;
+    letter-spacing: 2px;
+    font-size: 10px;
+
+}
+.info>span{
+    font-size: 15px;
+    letter-spacing: 2px;
+}

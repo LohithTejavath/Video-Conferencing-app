@@ -1,0 +1,228 @@
+*{
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+     overflow-x:hidden;
+
+}
+.rest{
+         background-color:#202124;
+        min-height:93vh;
+}
+.topbar{
+    width:100%;
+    height:7vh;
+    background-color:black;
+    color:#A6A7DC;
+    display:flex;
+    align-items:center;
+    padding-left:32px;
+    /* justify-content:center; */
+}
+#video-container{
+    min-height: 80vh;
+    min-width:70vw;
+    width:100vw;
+    background-color:#3C4043;
+    border-radius:20px;
+    margin:16px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+
+}
+#video-container > video{
+
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+    border-radius:20px;
+    background-color:black;
+    margin:16px;
+}
+.menubar{
+     width:98%;
+     margin: 0% 1%;
+     border-radius:20px;
+    height:9vh;
+     background-color:#343A40;
+     display:flex;
+     justify-content:space-evenly;
+     align-items:center;
+
+}
+.videoCard>p{
+    position:relative;
+    bottom:-35%;
+    color:white;
+  margin-left:32px;
+}
+.videoCard{
+
+    border-radius:20px;
+    width:300px;
+    height:300px;
+    background-color:black;
+    margin:16px;
+
+}
+#endbtn{
+transform: rotate(45deg);
+}
+
+.container{
+    width:40%;
+    display:flex;
+    height:5vh;
+     justify-content:space-evenly;
+     align-items:center;
+
+}
+.container>div{
+   height:48px;
+   width:48px;
+   display:flex;
+   justify-content:center;
+     align-items:center;
+
+     border-radius:50%;
+    transition: all 200ms ease-in-out;
+
+}
+.container>div>i{
+    color:white;
+}
+.rotate{
+    transform: rotate(225deg);
+}
+.container>div:hover{
+    background-color: #B70000
+    /* height:5.5vh;
+   width:5.5vh; */
+}
+.background__red{
+    background-color:#DA0037;
+}
+
+.controlls{
+    width:30vw;
+
+
+     display:flex;
+   justify-content:center;
+     align-items:center;
+}
+.add_participants{
+       display:flex;
+       transition: all 200ms ease-in-out;
+   justify-content:center;
+     align-items:center;
+     color: white;
+     background-color:#2b2b2b;
+width:45px;
+height:45px;
+border-radius:50%;
+margin:0px 20px;
+}
+.add_participants:hover{
+    background-color:#EDEDED;
+    color: black;
+
+}
+.video_messages{
+    display: flex;
+    flex-direction: row;
+}
+.messages{
+    /* width: 800px;
+    height: 80vh; */
+    background-color: white;
+    border-radius:20px;
+    margin:16px;
+
+}
+.active{
+
+   animation: slow 800ms ease-in-out  1 forwards ;
+    animation-name: slow;
+    animation-duration: 1s ;
+}
+
+@keyframes slow {
+    from {width: 0px;
+    height:80vh;}
+    to { width: 800px;
+        height: 80vh;}
+  }
+  .main__right{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      }
+.main__chat_window{
+        height: 71vh;
+    width: 100%;
+}
+.main__message_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(189, 189, 189);
+    margin: 0px 16px;
+    border-radius: 20px;
+
+
+
+}
+.textmsg{
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+.hide{
+    display: none;
+}
+#chat_message{
+    width: 70%;
+    height: 30px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: larger;
+    background-color:  rgb(189, 189, 189);
+    border-style: none;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+.options__button{
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    background-color: rgb(189, 189, 189);
+}
+.chat_message:focus, input:focus{
+    outline: none;
+}
+
+.message_card{
+    margin: 16px 25px;
+    align-items: center;
+
+}
+.textmsg{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-left: 25px;
+    /* font-weight: bold; */
+
+
+}
+.bold{
+    /* font-weight: bolder; */
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif !important;
+}
